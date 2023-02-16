@@ -1,0 +1,87 @@
+.banner h3 + p {
+  /*=========== LARGE P ==========*/
+  font-size: 4.1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+@media (max-width: 567px) {
+  .banner h3 + p {
+    font-size: 2.6rem;
+  }
+}
+.banner .text-box p {
+  /*=========== NORMAL P ==========*/
+  font-size: 2.1rem;
+  line-height: 1.6;
+  font-weight: 600;
+}
+.new .new-box p {
+  line-height: 1.4;
+}
+
+@media (min-width: 567px) {
+  .new .new-box p {
+    font-size: 1.7rem;
+  }
+}
+@media (min-width: 1200px) {
+  .new .new-box p {
+    width: 90%;
+    margin: auto;
+  }
+}
+.specials > p {
+  /*=========== LARGE P ==========*/
+  font-size: 4.2rem;
+  text-align: center;
+  margin-bottom: 41px;
+  text-transform: uppercase;
+}
+@media (min-width: 568px) {
+  .specials .special-box p {
+    font-size: 1.9rem;
+  }
+}
+@media (min-width: 1200px) {
+  .specials article:last-child p {
+    text-align: end;
+  }
+}
+.shuffle p {
+  /*=========== NORMAL P ==========*/
+  font-size: 1.9rem;
+  line-height: 1.6;
+  font-weight: 600;
+  margin: 35px auto 45px;
+}
+@media (min-width: 768px) {
+  .shuffle p {
+    width: 755px;
+  }
+}
+.combos .combos-box p {
+  /*=========== SMALL P ==========*/
+  font-size: 1.7rem;
+  width: 90%;
+}
+.social p {
+  /*=========== NORMAL P ==========*/
+  width: 775px;
+  max-width: 100%;
+  margin: 0 auto 50px;
+  font-size: 19px;
+  line-height: 1.7;
+  font-weight: 700;
+}
+.contact p {
+  /*=========== NORMAL P ==========*/
+  font-size: 1.9rem;
+  line-height: 1.7;
+}
+footer p {
+  /*=========== NORMAL P ==========*/
+  font-size: 1.9rem;
+  line-height: 1.5;
+  text-align: center;
+  /* font-weight: 600; */
+}
