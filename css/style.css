@@ -1041,10 +1041,11 @@ header ul a {
 
 /* ======== Footer Starts ======== */
 footer {
-  padding: 30px 0;
+  padding: 10px 0;
 }
 footer p {
   text-align: center;
+  font-size: 1.2em;
 }
 footer a {
   color: var(--main-gold, #b39775);
