@@ -28,7 +28,7 @@ html {
   scroll-behavior: smooth;
 }
 img {
-  /* it's super important so the images can remain in heir aspect-ratio */
+  /* it's super important so the images can remain in their aspect-ratio */
   height: auto;
 }
 p {
@@ -52,6 +52,14 @@ a {
 ul {
   list-style: none;
   display: flex;
+}
+.link-accessible-text {
+  display: block;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  top: -10px;
 }
 .special-heading {
   font-family: "Leckerli One", cursive;
